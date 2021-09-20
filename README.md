@@ -100,4 +100,32 @@ use " baseUrl: 'https://link_here' " inside axios to shorten the link to get/pos
 - Common and uncommon components,..
 
 #### Layouts  
-- It is related when run the nuxt app
+- It is related when run the nuxt app, the webpage reload when having change in layouts folder 
+- Layout must contain component <em> ```<nuxt/>```</em> - it's the router vue
+
+#### middleware 
+- Optional too   
+
+#### Plugins
+- Optional, have to import in <em>nuxt.config.js</em> to render 
+- Can't automatically like layouts 
+
+#### Static 
+- For static file, landing page 
+- Can access to static file by adding "file_name" to url
+
+#### Store 
+- Directly effect to vuex store 
+<!-- Eg: add index.js => automatically create store -->
+
+#### Pages
+- Routing without router.js file 
+
+
+
+
+
+<!-- 
+Config auto edit eslint faults:
+
+ -->
