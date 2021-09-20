@@ -1,6 +1,37 @@
 # NuxtJS - SPA - SRR
 -------------
+## SPA: Single Page Application 
+-----
+### Pros: 
 
+* Seperate font-end and back-end, communicate by API 
+* Quickly, HTML, CSS, JS load only one time. No need to reload all the page. 
+* Decrease bandwidth for server
+* User interface better
+
+### Cons: 
+
+* Unimprovement SEO  
+* JS must work through browser
+* Effect to performance from client,...
+
+## SSR: Sever Side Rendering
+-----
+### Pros: 
+
+* Support SEO strongly, Search engines can Craw data better at the first time paste the URL  
+* Load page the first time very quickly
+* Suitable for static pages   
+* Better security
+
+### Cons: 
+
+* Webpage must be whole loaded if there is a small change  
+* Server get heavier cause operating more logic and data  
+* More request to server, render HTML  
+
+## Nuxt
+-----
 ### What is nuxt?
 
 Nuxt.js is a frontend framework of Vuejs that offers great development features.
